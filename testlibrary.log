@@ -1,0 +1,422 @@
+# random seed: R02S427863f69fe2cee28a1d7e93c49a8dc3
+1..11
+# Start of library tests
+ok 1 /library/version
+PASS: testlibrary 1 /library/version
+ok 2 /library/user-installation
+PASS: testlibrary 2 /library/user-installation
+ok 3 /library/system-installation
+PASS: testlibrary 3 /library/system-installation
+# flatpak-DEBUG: Found Flatpak installation for 'extra-installation-2'
+# flatpak-DEBUG: Found Flatpak installation for 'extra-installation-1'
+# flatpak-DEBUG: Found Flatpak installation for 'extra-installation-3'
+# flatpak-DEBUG: Found Flatpak installation for 'default'
+ok 4 /library/multiple-system-installation
+PASS: testlibrary 4 /library/multiple-system-installation
+ok 5 /library/arches
+PASS: testlibrary 5 /library/arches
+ok 6 /library/ref
+PASS: testlibrary 6 /library/ref
+ok 7 /library/list-remotes
+PASS: testlibrary 7 /library/list-remotes
+ok 8 /library/remote-by-name
+PASS: testlibrary 8 /library/remote-by-name
+ok 9 /library/remote
+PASS: testlibrary 9 /library/remote
+ok 10 /library/list-refs
+PASS: testlibrary 10 /library/list-refs
+# OSTree-DEBUG: no delta superblock for empty-5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e
+# OSTree-DEBUG: queuing fetch of 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit (detached)
+# OSTree-DEBUG: fetch of 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit (detached) complete
+# OSTree-DEBUG: queuing fetch of 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit
+# OSTree-DEBUG: fetch of 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit complete
+# OSTree-DEBUG: write of 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit complete
+# OSTree-DEBUG: queuing fetch of 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit (detached)
+# OSTree-DEBUG: fetch of 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit (detached) complete
+# OSTree-DEBUG: queuing fetch of 1dff071f9d8ba1d8353d85a3d2ef4cf365f37e53e82587211fe59e2e5ee3249b.dirtree
+# OSTree-DEBUG: queuing fetch of 446a0ef11b7cc167f3b603e585c7eeeeb675faa412d5ec73f62988eb0b6c5488.dirmeta
+# OSTree-DEBUG: fetch of 1dff071f9d8ba1d8353d85a3d2ef4cf365f37e53e82587211fe59e2e5ee3249b.dirtree complete
+# OSTree-DEBUG: fetch of 446a0ef11b7cc167f3b603e585c7eeeeb675faa412d5ec73f62988eb0b6c5488.dirmeta complete
+# OSTree-DEBUG: write of 1dff071f9d8ba1d8353d85a3d2ef4cf365f37e53e82587211fe59e2e5ee3249b.dirtree complete
+# OSTree-DEBUG: queuing fetch of d09ca84220098d1d7365889987075d3c85c3251eecefa49bfa922e76ac643cd9.file
+# OSTree-DEBUG: queuing fetch of e5a4c6d019b29e0b172c81bcc9b4f3dd354a8657c28ab48a902fdfd25f2473f0.dirtree
+# OSTree-DEBUG: write of 446a0ef11b7cc167f3b603e585c7eeeeb675faa412d5ec73f62988eb0b6c5488.dirmeta complete
+# OSTree-DEBUG: queuing fetch of 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183.dirmeta
+# OSTree-DEBUG: fetch of d09ca84220098d1d7365889987075d3c85c3251eecefa49bfa922e76ac643cd9.file complete
+# OSTree-DEBUG: fetch of e5a4c6d019b29e0b172c81bcc9b4f3dd354a8657c28ab48a902fdfd25f2473f0.dirtree complete
+# OSTree-DEBUG: fetch of 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183.dirmeta complete
+# OSTree-DEBUG: write of d09ca84220098d1d7365889987075d3c85c3251eecefa49bfa922e76ac643cd9.file complete
+# OSTree-DEBUG: write of e5a4c6d019b29e0b172c81bcc9b4f3dd354a8657c28ab48a902fdfd25f2473f0.dirtree complete
+# OSTree-DEBUG: write of 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183.dirmeta complete
+# OSTree-DEBUG: queuing fetch of c758764e2464518c71af9fd419d84823bab7d7c94d4704c1bb072c9ca2680475.file
+# OSTree-DEBUG: queuing fetch of 46e3bb964d5abe7c25ab040088ef11eb22403b79a8697bd3594ce3a086d09297.dirtree
+# OSTree-DEBUG: queuing fetch of 63dee720f95428528063379fe56e8b6251a24f2050586b9e0f398b944702e013.dirtree
+# OSTree-DEBUG: fetch of c758764e2464518c71af9fd419d84823bab7d7c94d4704c1bb072c9ca2680475.file complete
+# OSTree-DEBUG: fetch of 63dee720f95428528063379fe56e8b6251a24f2050586b9e0f398b944702e013.dirtree complete
+# OSTree-DEBUG: fetch of 46e3bb964d5abe7c25ab040088ef11eb22403b79a8697bd3594ce3a086d09297.dirtree complete
+# OSTree-DEBUG: write of c758764e2464518c71af9fd419d84823bab7d7c94d4704c1bb072c9ca2680475.file complete
+# OSTree-DEBUG: write of 63dee720f95428528063379fe56e8b6251a24f2050586b9e0f398b944702e013.dirtree complete
+# OSTree-DEBUG: queuing fetch of 2a0232fcf7dbc1095bad39df84c5614d485c06cb0c7c40d3075fbb5fa8a47119.file
+# OSTree-DEBUG: queuing fetch of 9cb56f16092340db2c63b3d6e228c0a76cf570fa6c0f0a570a11408acb488ad2.file
+# OSTree-DEBUG: queuing fetch of 4931b92bdb95e9551e7f4f6ab943c3552169017280c4193cebe425d1c6b71074.file
+# OSTree-DEBUG: queuing fetch of a3f035657eecb74ea9dda3842c827c3cac5ff7415734c3f1ddc24efd08b859bc.file
+# OSTree-DEBUG: queuing fetch of 9b7e4e62dcc0c6966dc7d12e560fb2ec19326dd96433dcbd6fe6b91b62724846.file
+# OSTree-DEBUG: queuing fetch of ec09e61dc4769c80eedcc4774de1607b91e2de680b18d12d557f834ab6e2aa79.file
+# OSTree-DEBUG: queuing fetch of 5d9312389cc6788b7ed913b41e3daa03eb53b80b71157e4364e1d56be7aea71b.file
+# OSTree-DEBUG: queuing fetch of 0c85e4d40e5ab44eef755e0e911c426f7801dcd40afc212ef9cac4a93e15c5be.file
+# OSTree-DEBUG: write of 46e3bb964d5abe7c25ab040088ef11eb22403b79a8697bd3594ce3a086d09297.dirtree complete
+# OSTree-DEBUG: queuing fetch of 9033169cd103acb5b42c8fddd355ac8a62b187d087390a8cf9dd0f03f64166f4.dirtree
+# OSTree-DEBUG: queuing fetch of 58ff0ddc060ee5f66b1c007b2d0b802ebf08936e185ac83380a5d45dd7ba4104.file
+# OSTree-DEBUG: queuing fetch of ece19f8e282632de29a4a83bb87fc24b2a9c7310fe8f56bf2b447749fea2f609.file
+# OSTree-DEBUG: queuing fetch of c3e0a6eda2a61bb6ac9143b59f43ee3c4cfc246af6095ea98143132d398aa571.file
+# OSTree-DEBUG: queuing fetch of ad59cbd1d4d2e0aa525f76d59abf5ac57ef41084721a38ee98b408ac41534961.file
+# OSTree-DEBUG: queuing fetch of 43414d2c783f981beb5af06008e213b29e50681a98d4172bc72a25161e877362.file
+# OSTree-DEBUG: queuing fetch of d98430476b1fbdc3086073c4427ac225f021515f46f049d356c67fb38b37cc77.file
+# OSTree-DEBUG: fetch of 4931b92bdb95e9551e7f4f6ab943c3552169017280c4193cebe425d1c6b71074.file complete
+# OSTree-DEBUG: fetch of a3f035657eecb74ea9dda3842c827c3cac5ff7415734c3f1ddc24efd08b859bc.file complete
+# OSTree-DEBUG: write of 4931b92bdb95e9551e7f4f6ab943c3552169017280c4193cebe425d1c6b71074.file complete
+# OSTree-DEBUG: fetch of 9033169cd103acb5b42c8fddd355ac8a62b187d087390a8cf9dd0f03f64166f4.dirtree complete
+# OSTree-DEBUG: write of a3f035657eecb74ea9dda3842c827c3cac5ff7415734c3f1ddc24efd08b859bc.file complete
+# OSTree-DEBUG: write of 9033169cd103acb5b42c8fddd355ac8a62b187d087390a8cf9dd0f03f64166f4.dirtree complete
+# OSTree-DEBUG: queuing fetch of e169845002eef6a5f239068ac1d0d43e76368100cf4476af86634808ef855349.dirtree
+# OSTree-DEBUG: fetch of ece19f8e282632de29a4a83bb87fc24b2a9c7310fe8f56bf2b447749fea2f609.file complete
+# OSTree-DEBUG: fetch of ec09e61dc4769c80eedcc4774de1607b91e2de680b18d12d557f834ab6e2aa79.file complete
+# OSTree-DEBUG: fetch of e169845002eef6a5f239068ac1d0d43e76368100cf4476af86634808ef855349.dirtree complete
+# OSTree-DEBUG: fetch of c3e0a6eda2a61bb6ac9143b59f43ee3c4cfc246af6095ea98143132d398aa571.file complete
+# OSTree-DEBUG: fetch of 5d9312389cc6788b7ed913b41e3daa03eb53b80b71157e4364e1d56be7aea71b.file complete
+# OSTree-DEBUG: fetch of 2a0232fcf7dbc1095bad39df84c5614d485c06cb0c7c40d3075fbb5fa8a47119.file complete
+# OSTree-DEBUG: fetch of 0c85e4d40e5ab44eef755e0e911c426f7801dcd40afc212ef9cac4a93e15c5be.file complete
+# OSTree-DEBUG: write of ece19f8e282632de29a4a83bb87fc24b2a9c7310fe8f56bf2b447749fea2f609.file complete
+# OSTree-DEBUG: write of ec09e61dc4769c80eedcc4774de1607b91e2de680b18d12d557f834ab6e2aa79.file complete
+# OSTree-DEBUG: fetch of d98430476b1fbdc3086073c4427ac225f021515f46f049d356c67fb38b37cc77.file complete
+# OSTree-DEBUG: write of e169845002eef6a5f239068ac1d0d43e76368100cf4476af86634808ef855349.dirtree complete
+# OSTree-DEBUG: fetch of 43414d2c783f981beb5af06008e213b29e50681a98d4172bc72a25161e877362.file complete
+# OSTree-DEBUG: write of c3e0a6eda2a61bb6ac9143b59f43ee3c4cfc246af6095ea98143132d398aa571.file complete
+# OSTree-DEBUG: write of 5d9312389cc6788b7ed913b41e3daa03eb53b80b71157e4364e1d56be7aea71b.file complete
+# OSTree-DEBUG: fetch of ad59cbd1d4d2e0aa525f76d59abf5ac57ef41084721a38ee98b408ac41534961.file complete
+# OSTree-DEBUG: write of 2a0232fcf7dbc1095bad39df84c5614d485c06cb0c7c40d3075fbb5fa8a47119.file complete
+# OSTree-DEBUG: write of 0c85e4d40e5ab44eef755e0e911c426f7801dcd40afc212ef9cac4a93e15c5be.file complete
+# OSTree-DEBUG: write of d98430476b1fbdc3086073c4427ac225f021515f46f049d356c67fb38b37cc77.file complete
+# OSTree-DEBUG: fetch of 9b7e4e62dcc0c6966dc7d12e560fb2ec19326dd96433dcbd6fe6b91b62724846.file complete
+# OSTree-DEBUG: write of 43414d2c783f981beb5af06008e213b29e50681a98d4172bc72a25161e877362.file complete
+# OSTree-DEBUG: write of ad59cbd1d4d2e0aa525f76d59abf5ac57ef41084721a38ee98b408ac41534961.file complete
+# OSTree-DEBUG: queuing fetch of 2651df41fe8ed03dd250cc11a2552f4c71b599912750407d754e2c7b26c61ddf.file
+# OSTree-DEBUG: queuing fetch of 601d54face15858db02420e1431ba44c324f9b4759206ef266e90e675dab9d71.file
+# OSTree-DEBUG: queuing fetch of 0f62d14e5b1da553d3098249c288f6632d66bbbdd8a179eadfeb945b36488349.file
+# OSTree-DEBUG: queuing fetch of 3541c25128aeb0896b52b18142780006cecd264db250d851e7a707933e751f5c.file
+# OSTree-DEBUG: queuing fetch of 52bfc99521a30ab47aa513dfdb2273c93bdeeddbdbb43de1166af2a9866356cb.file
+# OSTree-DEBUG: queuing fetch of a12275ba8d6b6a106d813e9f512ed0bb1dc23c1b9ad5afd95c0cb9bf934a7dbf.file
+# OSTree-DEBUG: queuing fetch of 63b299a368d4a2eb521f533c60e24d62c86ae6d2df43e6bef9de067f71023d24.file
+# OSTree-DEBUG: queuing fetch of 639d6e7e2be7b3d17cb63e472e2c527e403c69cc9eee1a153b7bea6d8cf5deef.file
+# OSTree-DEBUG: queuing fetch of ea025f5e7956f0d9bd3c1c3defccbded8961a3cd2fc6273ae17a3cd14843db3c.file
+# OSTree-DEBUG: queuing fetch of 5459d977d50e40f1723a0024e376dcefd05a61440b246d00cec13d253687049e.file
+# OSTree-DEBUG: queuing fetch of b6975d6ca409ad3a0c04d28e5a600c40aff1a901257d9447b226ba6c5cfd7ae2.file
+# OSTree-DEBUG: queuing fetch of fd90a3c75e89c6934e189fd61f108a625281a1942169d4b9ca77e79ea4227e22.dirtree
+# OSTree-DEBUG: fetch of 2651df41fe8ed03dd250cc11a2552f4c71b599912750407d754e2c7b26c61ddf.file complete
+# OSTree-DEBUG: fetch of 3541c25128aeb0896b52b18142780006cecd264db250d851e7a707933e751f5c.file complete
+# OSTree-DEBUG: fetch of 52bfc99521a30ab47aa513dfdb2273c93bdeeddbdbb43de1166af2a9866356cb.file complete
+# OSTree-DEBUG: write of 2651df41fe8ed03dd250cc11a2552f4c71b599912750407d754e2c7b26c61ddf.file complete
+# OSTree-DEBUG: write of 3541c25128aeb0896b52b18142780006cecd264db250d851e7a707933e751f5c.file complete
+# OSTree-DEBUG: fetch of a12275ba8d6b6a106d813e9f512ed0bb1dc23c1b9ad5afd95c0cb9bf934a7dbf.file complete
+# OSTree-DEBUG: fetch of 63b299a368d4a2eb521f533c60e24d62c86ae6d2df43e6bef9de067f71023d24.file complete
+# OSTree-DEBUG: fetch of 639d6e7e2be7b3d17cb63e472e2c527e403c69cc9eee1a153b7bea6d8cf5deef.file complete
+# OSTree-DEBUG: write of 52bfc99521a30ab47aa513dfdb2273c93bdeeddbdbb43de1166af2a9866356cb.file complete
+# OSTree-DEBUG: write of a12275ba8d6b6a106d813e9f512ed0bb1dc23c1b9ad5afd95c0cb9bf934a7dbf.file complete
+# OSTree-DEBUG: write of 63b299a368d4a2eb521f533c60e24d62c86ae6d2df43e6bef9de067f71023d24.file complete
+# OSTree-DEBUG: write of 639d6e7e2be7b3d17cb63e472e2c527e403c69cc9eee1a153b7bea6d8cf5deef.file complete
+# OSTree-DEBUG: fetch of 5459d977d50e40f1723a0024e376dcefd05a61440b246d00cec13d253687049e.file complete
+# OSTree-DEBUG: fetch of ea025f5e7956f0d9bd3c1c3defccbded8961a3cd2fc6273ae17a3cd14843db3c.file complete
+# OSTree-DEBUG: fetch of fd90a3c75e89c6934e189fd61f108a625281a1942169d4b9ca77e79ea4227e22.dirtree complete
+# OSTree-DEBUG: write of 5459d977d50e40f1723a0024e376dcefd05a61440b246d00cec13d253687049e.file complete
+# OSTree-DEBUG: write of ea025f5e7956f0d9bd3c1c3defccbded8961a3cd2fc6273ae17a3cd14843db3c.file complete
+# OSTree-DEBUG: write of fd90a3c75e89c6934e189fd61f108a625281a1942169d4b9ca77e79ea4227e22.dirtree complete
+# OSTree-DEBUG: fetch of b6975d6ca409ad3a0c04d28e5a600c40aff1a901257d9447b226ba6c5cfd7ae2.file complete
+# OSTree-DEBUG: queuing fetch of fdb5dd0cc76f864c14174ef463f9251489c1b480dc1283e9be1adbf7558b59bc.file
+# OSTree-DEBUG: write of b6975d6ca409ad3a0c04d28e5a600c40aff1a901257d9447b226ba6c5cfd7ae2.file complete
+# OSTree-DEBUG: fetch of 0f62d14e5b1da553d3098249c288f6632d66bbbdd8a179eadfeb945b36488349.file complete
+# OSTree-DEBUG: fetch of fdb5dd0cc76f864c14174ef463f9251489c1b480dc1283e9be1adbf7558b59bc.file complete
+# OSTree-DEBUG: write of 0f62d14e5b1da553d3098249c288f6632d66bbbdd8a179eadfeb945b36488349.file complete
+# OSTree-DEBUG: write of fdb5dd0cc76f864c14174ef463f9251489c1b480dc1283e9be1adbf7558b59bc.file complete
+# OSTree-DEBUG: fetch of 58ff0ddc060ee5f66b1c007b2d0b802ebf08936e185ac83380a5d45dd7ba4104.file complete
+# OSTree-DEBUG: fetch of 601d54face15858db02420e1431ba44c324f9b4759206ef266e90e675dab9d71.file complete
+# OSTree-DEBUG: write of 9b7e4e62dcc0c6966dc7d12e560fb2ec19326dd96433dcbd6fe6b91b62724846.file complete
+# OSTree-DEBUG: fetch of 9cb56f16092340db2c63b3d6e228c0a76cf570fa6c0f0a570a11408acb488ad2.file complete
+# OSTree-DEBUG: write of 601d54face15858db02420e1431ba44c324f9b4759206ef266e90e675dab9d71.file complete
+# OSTree-DEBUG: write of 58ff0ddc060ee5f66b1c007b2d0b802ebf08936e185ac83380a5d45dd7ba4104.file complete
+# OSTree-DEBUG: write of 9cb56f16092340db2c63b3d6e228c0a76cf570fa6c0f0a570a11408acb488ad2.file complete
+# OSTree-DEBUG: pull: idle, exiting mainloop
+# flatpak-DEBUG: No checksum specified, getting tip of runtime/org.test.Platform/x86_64/master
+# flatpak-DEBUG: tip resolved to: 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e
+# OSTree-DEBUG: no delta superblock for empty-d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc
+# OSTree-DEBUG: queuing fetch of d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc.commit (detached)
+# OSTree-DEBUG: fetch of d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc.commit (detached) complete
+# OSTree-DEBUG: queuing fetch of d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc.commit
+# OSTree-DEBUG: fetch of d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc.commit complete
+# OSTree-DEBUG: write of d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc.commit complete
+# OSTree-DEBUG: queuing fetch of d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc.commit (detached)
+# OSTree-DEBUG: fetch of d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc.commit (detached) complete
+# OSTree-DEBUG: queuing fetch of f3bedac42ec0d02704972afba27077a4ce03a03d6ea137dff056a146b08ed18b.dirtree
+# OSTree-DEBUG: fetch of f3bedac42ec0d02704972afba27077a4ce03a03d6ea137dff056a146b08ed18b.dirtree complete
+# OSTree-DEBUG: write of f3bedac42ec0d02704972afba27077a4ce03a03d6ea137dff056a146b08ed18b.dirtree complete
+# OSTree-DEBUG: queuing fetch of 3688046fbdd834b163afa36d7623a205c52578425723da2e29e31daff148248a.file
+# OSTree-DEBUG: queuing fetch of dac8d382f6aa5d6eff89c589d63111dfc3400b732e2eb958d6dbbd0d1dcc0786.dirtree
+# OSTree-DEBUG: queuing fetch of 17630158256191bb84636e5c56c32ae66c2f23e628bee3c953113e01ba76253d.dirtree
+# OSTree-DEBUG: fetch of 3688046fbdd834b163afa36d7623a205c52578425723da2e29e31daff148248a.file complete
+# OSTree-DEBUG: fetch of dac8d382f6aa5d6eff89c589d63111dfc3400b732e2eb958d6dbbd0d1dcc0786.dirtree complete
+# OSTree-DEBUG: fetch of 17630158256191bb84636e5c56c32ae66c2f23e628bee3c953113e01ba76253d.dirtree complete
+# OSTree-DEBUG: write of 3688046fbdd834b163afa36d7623a205c52578425723da2e29e31daff148248a.file complete
+# OSTree-DEBUG: write of dac8d382f6aa5d6eff89c589d63111dfc3400b732e2eb958d6dbbd0d1dcc0786.dirtree complete
+# OSTree-DEBUG: queuing fetch of e8e968610ef8d021ecffc1e2403dd8e7a2154f1dd031ed2f15cc686f9140256b.dirtree
+# OSTree-DEBUG: write of 17630158256191bb84636e5c56c32ae66c2f23e628bee3c953113e01ba76253d.dirtree complete
+# OSTree-DEBUG: queuing fetch of 7a2fb06fa95eb20190b2e60ade09d187041eee8a88694c3ec146af434957241a.dirtree
+# OSTree-DEBUG: queuing fetch of 4a3dd12041ec8b2b9270af978a978f298b4664c70041732cc6e5f6ec27d5567f.dirtree
+# OSTree-DEBUG: fetch of e8e968610ef8d021ecffc1e2403dd8e7a2154f1dd031ed2f15cc686f9140256b.dirtree complete
+# OSTree-DEBUG: fetch of 7a2fb06fa95eb20190b2e60ade09d187041eee8a88694c3ec146af434957241a.dirtree complete
+# OSTree-DEBUG: fetch of 4a3dd12041ec8b2b9270af978a978f298b4664c70041732cc6e5f6ec27d5567f.dirtree complete
+# OSTree-DEBUG: write of e8e968610ef8d021ecffc1e2403dd8e7a2154f1dd031ed2f15cc686f9140256b.dirtree complete
+# OSTree-DEBUG: write of 7a2fb06fa95eb20190b2e60ade09d187041eee8a88694c3ec146af434957241a.dirtree complete
+# OSTree-DEBUG: queuing fetch of 1661c3388f338194a908d71892cd2a40035a99e54fafffff132e6c6a042167c5.dirtree
+# OSTree-DEBUG: write of 4a3dd12041ec8b2b9270af978a978f298b4664c70041732cc6e5f6ec27d5567f.dirtree complete
+# OSTree-DEBUG: queuing fetch of c8b9c25366b3dc591ccc959fe7a053fe27fd33be01c32b7a659aff197707afa7.dirtree
+# OSTree-DEBUG: queuing fetch of ef76445aa6c93c3758f7ca9d0bc0eb65fd5d2016a05e409dee51b08f203a42c2.file
+# OSTree-DEBUG: queuing fetch of f7f5adb8ac80cd089e4c15a0e46025069c22ae3a45df784797d8a36af5b611f1.dirtree
+# OSTree-DEBUG: queuing fetch of 91906e951d3588a505cd9ca09b35961971bc2d45fd3fd445a68172bae5a70645.dirtree
+# OSTree-DEBUG: fetch of 1661c3388f338194a908d71892cd2a40035a99e54fafffff132e6c6a042167c5.dirtree complete
+# OSTree-DEBUG: fetch of c8b9c25366b3dc591ccc959fe7a053fe27fd33be01c32b7a659aff197707afa7.dirtree complete
+# OSTree-DEBUG: fetch of ef76445aa6c93c3758f7ca9d0bc0eb65fd5d2016a05e409dee51b08f203a42c2.file complete
+# OSTree-DEBUG: fetch of f7f5adb8ac80cd089e4c15a0e46025069c22ae3a45df784797d8a36af5b611f1.dirtree complete
+# OSTree-DEBUG: fetch of 91906e951d3588a505cd9ca09b35961971bc2d45fd3fd445a68172bae5a70645.dirtree complete
+# OSTree-DEBUG: write of 1661c3388f338194a908d71892cd2a40035a99e54fafffff132e6c6a042167c5.dirtree complete
+# OSTree-DEBUG: write of c8b9c25366b3dc591ccc959fe7a053fe27fd33be01c32b7a659aff197707afa7.dirtree complete
+# OSTree-DEBUG: write of f7f5adb8ac80cd089e4c15a0e46025069c22ae3a45df784797d8a36af5b611f1.dirtree complete
+# OSTree-DEBUG: write of ef76445aa6c93c3758f7ca9d0bc0eb65fd5d2016a05e409dee51b08f203a42c2.file complete
+# OSTree-DEBUG: write of 91906e951d3588a505cd9ca09b35961971bc2d45fd3fd445a68172bae5a70645.dirtree complete
+# OSTree-DEBUG: queuing fetch of 9e138eba3b07af27715106f93dbbfd4fec17a41800de968e7acf7891e40bad90.file
+# OSTree-DEBUG: queuing fetch of 54befa30724fb4a71c7d90fc295705fc7cf74c4ce11be34c6722f25b8411ff93.dirtree
+# OSTree-DEBUG: queuing fetch of 01ab69a3a61e1409b599fee2f52785b225ad5bc7a33a0e0976dfc7c3e068905f.dirtree
+# OSTree-DEBUG: queuing fetch of 05dd0020dadbd8878b791ee578113f2b8851346835cf5ed3f78d80ebbcb2f2ab.dirtree
+# OSTree-DEBUG: queuing fetch of a8ee99f619da7462ed06632736fea87f915489f71c99b8d2aee5dfcdba28fa61.dirtree
+# OSTree-DEBUG: queuing fetch of 4ba02365e295720658e7d6a3813da68d18a4681c26171b3f21cc081a6efed86d.dirtree
+# OSTree-DEBUG: fetch of 9e138eba3b07af27715106f93dbbfd4fec17a41800de968e7acf7891e40bad90.file complete
+# OSTree-DEBUG: fetch of 54befa30724fb4a71c7d90fc295705fc7cf74c4ce11be34c6722f25b8411ff93.dirtree complete
+# OSTree-DEBUG: fetch of 01ab69a3a61e1409b599fee2f52785b225ad5bc7a33a0e0976dfc7c3e068905f.dirtree complete
+# OSTree-DEBUG: fetch of 05dd0020dadbd8878b791ee578113f2b8851346835cf5ed3f78d80ebbcb2f2ab.dirtree complete
+# OSTree-DEBUG: fetch of a8ee99f619da7462ed06632736fea87f915489f71c99b8d2aee5dfcdba28fa61.dirtree complete
+# OSTree-DEBUG: fetch of 4ba02365e295720658e7d6a3813da68d18a4681c26171b3f21cc081a6efed86d.dirtree complete
+# OSTree-DEBUG: write of 9e138eba3b07af27715106f93dbbfd4fec17a41800de968e7acf7891e40bad90.file complete
+# OSTree-DEBUG: write of 54befa30724fb4a71c7d90fc295705fc7cf74c4ce11be34c6722f25b8411ff93.dirtree complete
+# OSTree-DEBUG: write of 01ab69a3a61e1409b599fee2f52785b225ad5bc7a33a0e0976dfc7c3e068905f.dirtree complete
+# OSTree-DEBUG: write of 05dd0020dadbd8878b791ee578113f2b8851346835cf5ed3f78d80ebbcb2f2ab.dirtree complete
+# OSTree-DEBUG: write of 4ba02365e295720658e7d6a3813da68d18a4681c26171b3f21cc081a6efed86d.dirtree complete
+# OSTree-DEBUG: queuing fetch of d83d3b70a4d090443aa685005ef465c7a0e30f4429ddd8e512e2e516197e91a3.dirtree
+# OSTree-DEBUG: write of a8ee99f619da7462ed06632736fea87f915489f71c99b8d2aee5dfcdba28fa61.dirtree complete
+# OSTree-DEBUG: queuing fetch of c898255afde3912757d699b508aa79fcf399a3b9ff0648e7b8c7872990315ed6.file
+# OSTree-DEBUG: queuing fetch of d68c17b95cfdcb3192d7474c2c2819102a89c7b17e4e1bb0fec5bb39f6f558a6.dirtree
+# OSTree-DEBUG: queuing fetch of 7632a3f86599fc8615d2a1bfc21f65e52912b59ddbe34e0ac224d3fdaeafdb67.dirtree
+# OSTree-DEBUG: queuing fetch of 4372a086b7c4a3f2cdd9012bd4eaf64c5d7ee91b42cfb7fd20879edc20f3d9da.dirtree
+# OSTree-DEBUG: fetch of d83d3b70a4d090443aa685005ef465c7a0e30f4429ddd8e512e2e516197e91a3.dirtree complete
+# OSTree-DEBUG: fetch of c898255afde3912757d699b508aa79fcf399a3b9ff0648e7b8c7872990315ed6.file complete
+# OSTree-DEBUG: fetch of d68c17b95cfdcb3192d7474c2c2819102a89c7b17e4e1bb0fec5bb39f6f558a6.dirtree complete
+# OSTree-DEBUG: fetch of 7632a3f86599fc8615d2a1bfc21f65e52912b59ddbe34e0ac224d3fdaeafdb67.dirtree complete
+# OSTree-DEBUG: fetch of 4372a086b7c4a3f2cdd9012bd4eaf64c5d7ee91b42cfb7fd20879edc20f3d9da.dirtree complete
+# OSTree-DEBUG: write of d83d3b70a4d090443aa685005ef465c7a0e30f4429ddd8e512e2e516197e91a3.dirtree complete
+# OSTree-DEBUG: write of c898255afde3912757d699b508aa79fcf399a3b9ff0648e7b8c7872990315ed6.file complete
+# OSTree-DEBUG: write of d68c17b95cfdcb3192d7474c2c2819102a89c7b17e4e1bb0fec5bb39f6f558a6.dirtree complete
+# OSTree-DEBUG: write of 7632a3f86599fc8615d2a1bfc21f65e52912b59ddbe34e0ac224d3fdaeafdb67.dirtree complete
+# OSTree-DEBUG: write of 4372a086b7c4a3f2cdd9012bd4eaf64c5d7ee91b42cfb7fd20879edc20f3d9da.dirtree complete
+# OSTree-DEBUG: queuing fetch of c44a010e2dd1d539da01c32f6e4ea897672023386ebe7ae43c42f767628b17f4.dirtree
+# OSTree-DEBUG: queuing fetch of 26f4d95b2e72719d104abeb99f51415d7c46fc5536a21bff9fb38b0c7e5d77c7.dirtree
+# OSTree-DEBUG: fetch of c44a010e2dd1d539da01c32f6e4ea897672023386ebe7ae43c42f767628b17f4.dirtree complete
+# OSTree-DEBUG: fetch of 26f4d95b2e72719d104abeb99f51415d7c46fc5536a21bff9fb38b0c7e5d77c7.dirtree complete
+# OSTree-DEBUG: write of c44a010e2dd1d539da01c32f6e4ea897672023386ebe7ae43c42f767628b17f4.dirtree complete
+# OSTree-DEBUG: queuing fetch of a84711bd3d12d42468d9da95839b55c74823c617c63b46ee74d9d1860071cb87.file
+# OSTree-DEBUG: write of 26f4d95b2e72719d104abeb99f51415d7c46fc5536a21bff9fb38b0c7e5d77c7.dirtree complete
+# OSTree-DEBUG: fetch of a84711bd3d12d42468d9da95839b55c74823c617c63b46ee74d9d1860071cb87.file complete
+# OSTree-DEBUG: write of a84711bd3d12d42468d9da95839b55c74823c617c63b46ee74d9d1860071cb87.file complete
+# OSTree-DEBUG: pull: idle, exiting mainloop
+# flatpak-DEBUG: No checksum specified, getting tip of app/org.test.Hello/x86_64/master
+# flatpak-DEBUG: tip resolved to: d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc
+# flatpak-DEBUG: running triggers from /home/vador/repos/flatpak/triggers
+# flatpak-DEBUG: running trigger desktop-database.trigger
+# flatpak-DEBUG: running trigger gtk-icon-cache.trigger
+# flatpak-DEBUG: running trigger mime-database.trigger
+# flatpak-DEBUG: Disallowing ipc access
+# flatpak-DEBUG: Disallowing network access
+# flatpak-DEBUG: Running '/home/vador/repos/flatpak/flatpak-bwrap --args 55 /home/vador/repos/flatpak/flatpak-dbus-proxy --fd=50 unix:path=/run/user/1000/bus /var/tmp/flatpak-test-2519SY/runtime/.session-bus-proxy-AMUFTY --filter --own=org.test.Hello --own=org.test.Hello.* --talk=org.freedesktop.portal.*'
+Hello world, from a sandbox
+# flatpak-DEBUG: dropping active ref
+# flatpak-DEBUG: dropping current ref
+# flatpak-DEBUG: undeploying d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc
+# flatpak-DEBUG: removing deploy base
+# flatpak-DEBUG: cleaning up empty directories
+# flatpak-DEBUG: running triggers from /home/vador/repos/flatpak/triggers
+# flatpak-DEBUG: running trigger desktop-database.trigger
+# flatpak-DEBUG: running trigger gtk-icon-cache.trigger
+# flatpak-DEBUG: running trigger mime-database.trigger
+# OSTree-DEBUG: Finding objects to keep for commit 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e
+# OSTree-DEBUG: Traversing commit 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e
+# OSTree-DEBUG: Found dirtree object 1dff071f9d8ba1d8353d85a3d2ef4cf365f37e53e82587211fe59e2e5ee3249b
+# OSTree-DEBUG: Found dirmeta object 446a0ef11b7cc167f3b603e585c7eeeeb675faa412d5ec73f62988eb0b6c5488
+# OSTree-DEBUG: Traversing dirtree 1dff071f9d8ba1d8353d85a3d2ef4cf365f37e53e82587211fe59e2e5ee3249b
+# OSTree-DEBUG: Found file object d09ca84220098d1d7365889987075d3c85c3251eecefa49bfa922e76ac643cd9
+# OSTree-DEBUG: Found dirtree object e5a4c6d019b29e0b172c81bcc9b4f3dd354a8657c28ab48a902fdfd25f2473f0
+# OSTree-DEBUG: Found dirmeta object 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183
+# OSTree-DEBUG: Traversing dirtree e5a4c6d019b29e0b172c81bcc9b4f3dd354a8657c28ab48a902fdfd25f2473f0
+# OSTree-DEBUG: Found file object c758764e2464518c71af9fd419d84823bab7d7c94d4704c1bb072c9ca2680475
+# OSTree-DEBUG: Found file object c758764e2464518c71af9fd419d84823bab7d7c94d4704c1bb072c9ca2680475
+# OSTree-DEBUG: Found dirtree object 46e3bb964d5abe7c25ab040088ef11eb22403b79a8697bd3594ce3a086d09297
+# OSTree-DEBUG: Found dirmeta object 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183
+# OSTree-DEBUG: Traversing dirtree 46e3bb964d5abe7c25ab040088ef11eb22403b79a8697bd3594ce3a086d09297
+# OSTree-DEBUG: Found file object 58ff0ddc060ee5f66b1c007b2d0b802ebf08936e185ac83380a5d45dd7ba4104
+# OSTree-DEBUG: Found file object ece19f8e282632de29a4a83bb87fc24b2a9c7310fe8f56bf2b447749fea2f609
+# OSTree-DEBUG: Found file object c3e0a6eda2a61bb6ac9143b59f43ee3c4cfc246af6095ea98143132d398aa571
+# OSTree-DEBUG: Found file object ad59cbd1d4d2e0aa525f76d59abf5ac57ef41084721a38ee98b408ac41534961
+# OSTree-DEBUG: Found file object 43414d2c783f981beb5af06008e213b29e50681a98d4172bc72a25161e877362
+# OSTree-DEBUG: Found file object d98430476b1fbdc3086073c4427ac225f021515f46f049d356c67fb38b37cc77
+# OSTree-DEBUG: Found dirtree object 63dee720f95428528063379fe56e8b6251a24f2050586b9e0f398b944702e013
+# OSTree-DEBUG: Found dirmeta object 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183
+# OSTree-DEBUG: Traversing dirtree 63dee720f95428528063379fe56e8b6251a24f2050586b9e0f398b944702e013
+# OSTree-DEBUG: Found file object 2a0232fcf7dbc1095bad39df84c5614d485c06cb0c7c40d3075fbb5fa8a47119
+# OSTree-DEBUG: Found file object 9cb56f16092340db2c63b3d6e228c0a76cf570fa6c0f0a570a11408acb488ad2
+# OSTree-DEBUG: Found file object 4931b92bdb95e9551e7f4f6ab943c3552169017280c4193cebe425d1c6b71074
+# OSTree-DEBUG: Found file object a3f035657eecb74ea9dda3842c827c3cac5ff7415734c3f1ddc24efd08b859bc
+# OSTree-DEBUG: Found file object 9b7e4e62dcc0c6966dc7d12e560fb2ec19326dd96433dcbd6fe6b91b62724846
+# OSTree-DEBUG: Found file object ec09e61dc4769c80eedcc4774de1607b91e2de680b18d12d557f834ab6e2aa79
+# OSTree-DEBUG: Found file object 5d9312389cc6788b7ed913b41e3daa03eb53b80b71157e4364e1d56be7aea71b
+# OSTree-DEBUG: Found file object 0c85e4d40e5ab44eef755e0e911c426f7801dcd40afc212ef9cac4a93e15c5be
+# OSTree-DEBUG: Found dirtree object 9033169cd103acb5b42c8fddd355ac8a62b187d087390a8cf9dd0f03f64166f4
+# OSTree-DEBUG: Found dirmeta object 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183
+# OSTree-DEBUG: Traversing dirtree 9033169cd103acb5b42c8fddd355ac8a62b187d087390a8cf9dd0f03f64166f4
+# OSTree-DEBUG: Found dirtree object e169845002eef6a5f239068ac1d0d43e76368100cf4476af86634808ef855349
+# OSTree-DEBUG: Found dirmeta object 446a0ef11b7cc167f3b603e585c7eeeeb675faa412d5ec73f62988eb0b6c5488
+# OSTree-DEBUG: Traversing dirtree e169845002eef6a5f239068ac1d0d43e76368100cf4476af86634808ef855349
+# OSTree-DEBUG: Found file object 2651df41fe8ed03dd250cc11a2552f4c71b599912750407d754e2c7b26c61ddf
+# OSTree-DEBUG: Found file object 601d54face15858db02420e1431ba44c324f9b4759206ef266e90e675dab9d71
+# OSTree-DEBUG: Found file object 0f62d14e5b1da553d3098249c288f6632d66bbbdd8a179eadfeb945b36488349
+# OSTree-DEBUG: Found file object 3541c25128aeb0896b52b18142780006cecd264db250d851e7a707933e751f5c
+# OSTree-DEBUG: Found file object 52bfc99521a30ab47aa513dfdb2273c93bdeeddbdbb43de1166af2a9866356cb
+# OSTree-DEBUG: Found file object a12275ba8d6b6a106d813e9f512ed0bb1dc23c1b9ad5afd95c0cb9bf934a7dbf
+# OSTree-DEBUG: Found file object 63b299a368d4a2eb521f533c60e24d62c86ae6d2df43e6bef9de067f71023d24
+# OSTree-DEBUG: Found file object 639d6e7e2be7b3d17cb63e472e2c527e403c69cc9eee1a153b7bea6d8cf5deef
+# OSTree-DEBUG: Found file object ea025f5e7956f0d9bd3c1c3defccbded8961a3cd2fc6273ae17a3cd14843db3c
+# OSTree-DEBUG: Found file object 5459d977d50e40f1723a0024e376dcefd05a61440b246d00cec13d253687049e
+# OSTree-DEBUG: Found file object b6975d6ca409ad3a0c04d28e5a600c40aff1a901257d9447b226ba6c5cfd7ae2
+# OSTree-DEBUG: Found dirtree object fd90a3c75e89c6934e189fd61f108a625281a1942169d4b9ca77e79ea4227e22
+# OSTree-DEBUG: Found dirmeta object 446a0ef11b7cc167f3b603e585c7eeeeb675faa412d5ec73f62988eb0b6c5488
+# OSTree-DEBUG: Traversing dirtree fd90a3c75e89c6934e189fd61f108a625281a1942169d4b9ca77e79ea4227e22
+# OSTree-DEBUG: Found file object fdb5dd0cc76f864c14174ef463f9251489c1b480dc1283e9be1adbf7558b59bc
+# OSTree-DEBUG: Found file object d09ca84220098d1d7365889987075d3c85c3251eecefa49bfa922e76ac643cd9
+# OSTree-DEBUG: Found dirtree object e5a4c6d019b29e0b172c81bcc9b4f3dd354a8657c28ab48a902fdfd25f2473f0
+# OSTree-DEBUG: Found dirmeta object 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183
+# OSTree-DEBUG: Keeping needed object 3541c25128aeb0896b52b18142780006cecd264db250d851e7a707933e751f5c.file
+# OSTree-DEBUG: Pruning unneeded object 7a2fb06fa95eb20190b2e60ade09d187041eee8a88694c3ec146af434957241a.dirtree
+# OSTree-DEBUG: Keeping needed object a12275ba8d6b6a106d813e9f512ed0bb1dc23c1b9ad5afd95c0cb9bf934a7dbf.file
+# OSTree-DEBUG: Keeping needed object 46e3bb964d5abe7c25ab040088ef11eb22403b79a8697bd3594ce3a086d09297.dirtree
+# OSTree-DEBUG: Keeping needed object 58ff0ddc060ee5f66b1c007b2d0b802ebf08936e185ac83380a5d45dd7ba4104.file
+# OSTree-DEBUG: Pruning unneeded object d1f87eec49800333d9904caa5c2344965eb194fd431de856289b9e77f020c5fc.commit
+# OSTree-DEBUG: Pruning unneeded object a8ee99f619da7462ed06632736fea87f915489f71c99b8d2aee5dfcdba28fa61.dirtree
+# OSTree-DEBUG: Pruning unneeded object 9e138eba3b07af27715106f93dbbfd4fec17a41800de968e7acf7891e40bad90.file
+# OSTree-DEBUG: Keeping needed object 63dee720f95428528063379fe56e8b6251a24f2050586b9e0f398b944702e013.dirtree
+# OSTree-DEBUG: Pruning unneeded object 4ba02365e295720658e7d6a3813da68d18a4681c26171b3f21cc081a6efed86d.dirtree
+# OSTree-DEBUG: Keeping needed object 0f62d14e5b1da553d3098249c288f6632d66bbbdd8a179eadfeb945b36488349.file
+# OSTree-DEBUG: Pruning unneeded object f7f5adb8ac80cd089e4c15a0e46025069c22ae3a45df784797d8a36af5b611f1.dirtree
+# OSTree-DEBUG: Keeping needed object fdb5dd0cc76f864c14174ef463f9251489c1b480dc1283e9be1adbf7558b59bc.file
+# OSTree-DEBUG: Keeping needed object 52bfc99521a30ab47aa513dfdb2273c93bdeeddbdbb43de1166af2a9866356cb.file
+# OSTree-DEBUG: Keeping needed object 5459d977d50e40f1723a0024e376dcefd05a61440b246d00cec13d253687049e.file
+# OSTree-DEBUG: Keeping needed object 43414d2c783f981beb5af06008e213b29e50681a98d4172bc72a25161e877362.file
+# OSTree-DEBUG: Keeping needed object fd90a3c75e89c6934e189fd61f108a625281a1942169d4b9ca77e79ea4227e22.dirtree
+# OSTree-DEBUG: Keeping needed object 601d54face15858db02420e1431ba44c324f9b4759206ef266e90e675dab9d71.file
+# OSTree-DEBUG: Keeping needed object c758764e2464518c71af9fd419d84823bab7d7c94d4704c1bb072c9ca2680475.file
+# OSTree-DEBUG: Keeping needed object 639d6e7e2be7b3d17cb63e472e2c527e403c69cc9eee1a153b7bea6d8cf5deef.file
+# OSTree-DEBUG: Keeping needed object ea025f5e7956f0d9bd3c1c3defccbded8961a3cd2fc6273ae17a3cd14843db3c.file
+# OSTree-DEBUG: Pruning unneeded object 17630158256191bb84636e5c56c32ae66c2f23e628bee3c953113e01ba76253d.dirtree
+# OSTree-DEBUG: Keeping needed object ad59cbd1d4d2e0aa525f76d59abf5ac57ef41084721a38ee98b408ac41534961.file
+# OSTree-DEBUG: Keeping needed object d09ca84220098d1d7365889987075d3c85c3251eecefa49bfa922e76ac643cd9.file
+# OSTree-DEBUG: Keeping needed object b6975d6ca409ad3a0c04d28e5a600c40aff1a901257d9447b226ba6c5cfd7ae2.file
+# OSTree-DEBUG: Pruning unneeded object d68c17b95cfdcb3192d7474c2c2819102a89c7b17e4e1bb0fec5bb39f6f558a6.dirtree
+# OSTree-DEBUG: Keeping needed object e169845002eef6a5f239068ac1d0d43e76368100cf4476af86634808ef855349.dirtree
+# OSTree-DEBUG: Pruning unneeded object 3688046fbdd834b163afa36d7623a205c52578425723da2e29e31daff148248a.file
+# OSTree-DEBUG: Pruning unneeded object 7632a3f86599fc8615d2a1bfc21f65e52912b59ddbe34e0ac224d3fdaeafdb67.dirtree
+# OSTree-DEBUG: Pruning unneeded object 1661c3388f338194a908d71892cd2a40035a99e54fafffff132e6c6a042167c5.dirtree
+# OSTree-DEBUG: Keeping needed object 446a0ef11b7cc167f3b603e585c7eeeeb675faa412d5ec73f62988eb0b6c5488.dirmeta
+# OSTree-DEBUG: Keeping needed object 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183.dirmeta
+# OSTree-DEBUG: Pruning unneeded object c8b9c25366b3dc591ccc959fe7a053fe27fd33be01c32b7a659aff197707afa7.dirtree
+# OSTree-DEBUG: Keeping needed object 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit
+# OSTree-DEBUG: Pruning unneeded object f3bedac42ec0d02704972afba27077a4ce03a03d6ea137dff056a146b08ed18b.dirtree
+# OSTree-DEBUG: Keeping needed object ec09e61dc4769c80eedcc4774de1607b91e2de680b18d12d557f834ab6e2aa79.file
+# OSTree-DEBUG: Keeping needed object 9cb56f16092340db2c63b3d6e228c0a76cf570fa6c0f0a570a11408acb488ad2.file
+# OSTree-DEBUG: Keeping needed object e5a4c6d019b29e0b172c81bcc9b4f3dd354a8657c28ab48a902fdfd25f2473f0.dirtree
+# OSTree-DEBUG: Keeping needed object a3f035657eecb74ea9dda3842c827c3cac5ff7415734c3f1ddc24efd08b859bc.file
+# OSTree-DEBUG: Pruning unneeded object d83d3b70a4d090443aa685005ef465c7a0e30f4429ddd8e512e2e516197e91a3.dirtree
+# OSTree-DEBUG: Keeping needed object 2a0232fcf7dbc1095bad39df84c5614d485c06cb0c7c40d3075fbb5fa8a47119.file
+# OSTree-DEBUG: Pruning unneeded object c44a010e2dd1d539da01c32f6e4ea897672023386ebe7ae43c42f767628b17f4.dirtree
+# OSTree-DEBUG: Keeping needed object 5d9312389cc6788b7ed913b41e3daa03eb53b80b71157e4364e1d56be7aea71b.file
+# OSTree-DEBUG: Keeping needed object 2651df41fe8ed03dd250cc11a2552f4c71b599912750407d754e2c7b26c61ddf.file
+# OSTree-DEBUG: Pruning unneeded object 4372a086b7c4a3f2cdd9012bd4eaf64c5d7ee91b42cfb7fd20879edc20f3d9da.dirtree
+# OSTree-DEBUG: Keeping needed object 9033169cd103acb5b42c8fddd355ac8a62b187d087390a8cf9dd0f03f64166f4.dirtree
+# OSTree-DEBUG: Keeping needed object ece19f8e282632de29a4a83bb87fc24b2a9c7310fe8f56bf2b447749fea2f609.file
+# OSTree-DEBUG: Keeping needed object 1dff071f9d8ba1d8353d85a3d2ef4cf365f37e53e82587211fe59e2e5ee3249b.dirtree
+# OSTree-DEBUG: Keeping needed object 4931b92bdb95e9551e7f4f6ab943c3552169017280c4193cebe425d1c6b71074.file
+# OSTree-DEBUG: Keeping needed object c3e0a6eda2a61bb6ac9143b59f43ee3c4cfc246af6095ea98143132d398aa571.file
+# OSTree-DEBUG: Pruning unneeded object 26f4d95b2e72719d104abeb99f51415d7c46fc5536a21bff9fb38b0c7e5d77c7.dirtree
+# OSTree-DEBUG: Keeping needed object d98430476b1fbdc3086073c4427ac225f021515f46f049d356c67fb38b37cc77.file
+# OSTree-DEBUG: Keeping needed object 9b7e4e62dcc0c6966dc7d12e560fb2ec19326dd96433dcbd6fe6b91b62724846.file
+# OSTree-DEBUG: Pruning unneeded object e8e968610ef8d021ecffc1e2403dd8e7a2154f1dd031ed2f15cc686f9140256b.dirtree
+# OSTree-DEBUG: Pruning unneeded object ef76445aa6c93c3758f7ca9d0bc0eb65fd5d2016a05e409dee51b08f203a42c2.file
+# OSTree-DEBUG: Pruning unneeded object a84711bd3d12d42468d9da95839b55c74823c617c63b46ee74d9d1860071cb87.file
+# OSTree-DEBUG: Pruning unneeded object 01ab69a3a61e1409b599fee2f52785b225ad5bc7a33a0e0976dfc7c3e068905f.dirtree
+# OSTree-DEBUG: Pruning unneeded object 05dd0020dadbd8878b791ee578113f2b8851346835cf5ed3f78d80ebbcb2f2ab.dirtree
+# OSTree-DEBUG: Pruning unneeded object 91906e951d3588a505cd9ca09b35961971bc2d45fd3fd445a68172bae5a70645.dirtree
+# OSTree-DEBUG: Pruning unneeded object c898255afde3912757d699b508aa79fcf399a3b9ff0648e7b8c7872990315ed6.file
+# OSTree-DEBUG: Pruning unneeded object 54befa30724fb4a71c7d90fc295705fc7cf74c4ce11be34c6722f25b8411ff93.dirtree
+# OSTree-DEBUG: Pruning unneeded object 4a3dd12041ec8b2b9270af978a978f298b4664c70041732cc6e5f6ec27d5567f.dirtree
+# OSTree-DEBUG: Keeping needed object 63b299a368d4a2eb521f533c60e24d62c86ae6d2df43e6bef9de067f71023d24.file
+# OSTree-DEBUG: Pruning unneeded object dac8d382f6aa5d6eff89c589d63111dfc3400b732e2eb958d6dbbd0d1dcc0786.dirtree
+# OSTree-DEBUG: Keeping needed object 0c85e4d40e5ab44eef755e0e911c426f7801dcd40afc212ef9cac4a93e15c5be.file
+# flatpak-DEBUG: Pruned 65/27 objects, size 10.3 kB
+# flatpak-DEBUG: dropping active ref
+# flatpak-DEBUG: undeploying 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e
+# flatpak-DEBUG: removing deploy base
+# flatpak-DEBUG: cleaning up empty directories
+# OSTree-DEBUG: Pruning unneeded object 601d54face15858db02420e1431ba44c324f9b4759206ef266e90e675dab9d71.file
+# OSTree-DEBUG: Pruning unneeded object 43414d2c783f981beb5af06008e213b29e50681a98d4172bc72a25161e877362.file
+# OSTree-DEBUG: Pruning unneeded object ece19f8e282632de29a4a83bb87fc24b2a9c7310fe8f56bf2b447749fea2f609.file
+# OSTree-DEBUG: Pruning unneeded object c3e0a6eda2a61bb6ac9143b59f43ee3c4cfc246af6095ea98143132d398aa571.file
+# OSTree-DEBUG: Pruning unneeded object 1dff071f9d8ba1d8353d85a3d2ef4cf365f37e53e82587211fe59e2e5ee3249b.dirtree
+# OSTree-DEBUG: Pruning unneeded object fdb5dd0cc76f864c14174ef463f9251489c1b480dc1283e9be1adbf7558b59bc.file
+# OSTree-DEBUG: Pruning unneeded object a12275ba8d6b6a106d813e9f512ed0bb1dc23c1b9ad5afd95c0cb9bf934a7dbf.file
+# OSTree-DEBUG: Pruning unneeded object 0c85e4d40e5ab44eef755e0e911c426f7801dcd40afc212ef9cac4a93e15c5be.file
+# OSTree-DEBUG: Pruning unneeded object 63dee720f95428528063379fe56e8b6251a24f2050586b9e0f398b944702e013.dirtree
+# OSTree-DEBUG: Pruning unneeded object d98430476b1fbdc3086073c4427ac225f021515f46f049d356c67fb38b37cc77.file
+# OSTree-DEBUG: Pruning unneeded object 63b299a368d4a2eb521f533c60e24d62c86ae6d2df43e6bef9de067f71023d24.file
+# OSTree-DEBUG: Pruning unneeded object ec09e61dc4769c80eedcc4774de1607b91e2de680b18d12d557f834ab6e2aa79.file
+# OSTree-DEBUG: Pruning unneeded object 5d9312389cc6788b7ed913b41e3daa03eb53b80b71157e4364e1d56be7aea71b.file
+# OSTree-DEBUG: Pruning unneeded object 9b7e4e62dcc0c6966dc7d12e560fb2ec19326dd96433dcbd6fe6b91b62724846.file
+# OSTree-DEBUG: Pruning unneeded object 3541c25128aeb0896b52b18142780006cecd264db250d851e7a707933e751f5c.file
+# OSTree-DEBUG: Pruning unneeded object d09ca84220098d1d7365889987075d3c85c3251eecefa49bfa922e76ac643cd9.file
+# OSTree-DEBUG: Pruning unneeded object 446a0ef11b7cc167f3b603e585c7eeeeb675faa412d5ec73f62988eb0b6c5488.dirmeta
+# OSTree-DEBUG: Pruning unneeded object ad59cbd1d4d2e0aa525f76d59abf5ac57ef41084721a38ee98b408ac41534961.file
+# OSTree-DEBUG: Pruning unneeded object 2f6182a42321c04586a5e55bcfe9fb1baa1b3c24675528309cc7425108eb7183.dirmeta
+# OSTree-DEBUG: Pruning unneeded object 46e3bb964d5abe7c25ab040088ef11eb22403b79a8697bd3594ce3a086d09297.dirtree
+# OSTree-DEBUG: Pruning unneeded object b6975d6ca409ad3a0c04d28e5a600c40aff1a901257d9447b226ba6c5cfd7ae2.file
+# OSTree-DEBUG: Pruning unneeded object 9cb56f16092340db2c63b3d6e228c0a76cf570fa6c0f0a570a11408acb488ad2.file
+# OSTree-DEBUG: Pruning unneeded object c758764e2464518c71af9fd419d84823bab7d7c94d4704c1bb072c9ca2680475.file
+# OSTree-DEBUG: Pruning unneeded object 58ff0ddc060ee5f66b1c007b2d0b802ebf08936e185ac83380a5d45dd7ba4104.file
+# OSTree-DEBUG: Pruning unneeded object 52bfc99521a30ab47aa513dfdb2273c93bdeeddbdbb43de1166af2a9866356cb.file
+# OSTree-DEBUG: Pruning unneeded object fd90a3c75e89c6934e189fd61f108a625281a1942169d4b9ca77e79ea4227e22.dirtree
+# OSTree-DEBUG: Pruning unneeded object e169845002eef6a5f239068ac1d0d43e76368100cf4476af86634808ef855349.dirtree
+# OSTree-DEBUG: Pruning unneeded object 5fc4c56d38ea13617eb63922562efe5b6455bba9354de77548b18a8b7bb0301e.commit
+# OSTree-DEBUG: Pruning unneeded object 0f62d14e5b1da553d3098249c288f6632d66bbbdd8a179eadfeb945b36488349.file
+# OSTree-DEBUG: Pruning unneeded object ea025f5e7956f0d9bd3c1c3defccbded8961a3cd2fc6273ae17a3cd14843db3c.file
+# OSTree-DEBUG: Pruning unneeded object 4931b92bdb95e9551e7f4f6ab943c3552169017280c4193cebe425d1c6b71074.file
+# OSTree-DEBUG: Pruning unneeded object 2a0232fcf7dbc1095bad39df84c5614d485c06cb0c7c40d3075fbb5fa8a47119.file
+# OSTree-DEBUG: Pruning unneeded object 2651df41fe8ed03dd250cc11a2552f4c71b599912750407d754e2c7b26c61ddf.file
+# OSTree-DEBUG: Pruning unneeded object 639d6e7e2be7b3d17cb63e472e2c527e403c69cc9eee1a153b7bea6d8cf5deef.file
+# OSTree-DEBUG: Pruning unneeded object e5a4c6d019b29e0b172c81bcc9b4f3dd354a8657c28ab48a902fdfd25f2473f0.dirtree
+# OSTree-DEBUG: Pruning unneeded object a3f035657eecb74ea9dda3842c827c3cac5ff7415734c3f1ddc24efd08b859bc.file
+# OSTree-DEBUG: Pruning unneeded object 5459d977d50e40f1723a0024e376dcefd05a61440b246d00cec13d253687049e.file
+# OSTree-DEBUG: Pruning unneeded object 9033169cd103acb5b42c8fddd355ac8a62b187d087390a8cf9dd0f03f64166f4.dirtree
+# flatpak-DEBUG: Pruned 38/38 objects, size 6.5 MB
+ok 11 /library/install-launch-uninstall
+PASS: testlibrary 11 /library/install-launch-uninstall
+# End of library tests
