@@ -393,8 +393,7 @@ flatpak_run (int      argc,
           /* This will not return for some options (e.g. --version). */
           if (flatpak_option_context_parse (context, empty_entries, &argc, &argv, FLATPAK_BUILTIN_FLAG_NO_DIR, NULL, cancellable, &error))
             {
-              g_set_error_literal (&error, G_IO_ERROR, G_IO_ERROR_FAILED,
-                                   _("No command specified"));
+              g_print("%s", _("No command specified. See 'flatpak <command> --help' to read about a specific subcommand."));
             }
         }
 
